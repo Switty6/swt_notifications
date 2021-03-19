@@ -57,7 +57,7 @@ TriggerEvent("swt_notifications:default",message,position,color,textColor,timeou
 **With Caption**
 
 ```lua
-TriggerEvent("swt_notifications:caption",caption,message,position,color,textColor,timeout,progress)
+TriggerEvent("swt_notifications:caption",caption,message,position,timeout,color,textColor,progress)
 ```
 **Infomative notification**
 ```lua
@@ -81,12 +81,12 @@ TriggerEvent("swt_notifications:Negative",caption,message,position,timeout,progr
 
 **With Icon**
 ```lua
-TriggerEvent("swt_notifications:Icon",message,position,color,textColor,timeout,progress,icon)
+TriggerEvent("swt_notifications:Icon",message,position,timeout,color,textColor,progress,icon)
 ```
 
 **With Icon and Caption**
 ```lua
-TriggerEvent("swt_notifications:captionIcon",caption,message,position,color,textColor,timeout,progress,icon)
+TriggerEvent("swt_notifications:captionIcon",caption,message,position,timeout,color,textColor,progress,icon)
 ```
 
 ### Example to use

@@ -104,7 +104,7 @@ AddEventHandler("swt_notifications:captionIcon", function(caption,message,positi
 end)
 
 RegisterNetEvent("swt_notifications:Icon")
-AddEventHandler("swt_notifications:Icon", function(message,position,color,textColor,timeout,progress,icon)
+AddEventHandler("swt_notifications:Icon", function(message,position,timeout,color,textColor,progress,icon)
     SendNUIMessage({
         response = "show_icon_icon_notification",
         data = {

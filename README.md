@@ -142,7 +142,7 @@ TriggerEvent("swt_notifications:captionIcon",caption,message,position,timeout,co
 exports['swt_notifications']:CaptionIcon(caption,message,position,timeout,color,textColor,progress,icon)
 
 --Server
-TriggerServerEvent("swt_notifications:captionIcon",caption,message,position,timeout,color,textColor,progress,icon)
+TriggerClientEvent("swt_notifications:captionIcon",caption,message,position,timeout,color,textColor,progress,icon)
 ```
 ___
 ### Example to use

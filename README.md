@@ -6,7 +6,7 @@ FiveM notification system using [Quasar](https://quasar.dev/) framework and [Mat
 
 ## Installation
 
-- Download the last [release](https://github.com/HugoDs21/swt_notifications/releases)
+- Download the last [release]()
 - Unzip the folder
 - Drag and drop the `swt_notifications` into your resources folder
 - Don´t forget to add `ensure swt_notifications` in your `server.cfg`

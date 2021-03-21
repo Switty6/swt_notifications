@@ -53,46 +53,64 @@ Events are triggered client sided.
 
 ```lua
 TriggerEvent("swt_notifications:default",message,position,color,textColor,timeout,progress)
+
+exports['swt_notifications']:Default(message,position,color,textColor,timeout,progress)
 ```
 **With Caption**
 
 ```lua
 TriggerEvent("swt_notifications:caption",caption,message,position,timeout,color,textColor,progress)
+
+exports['swt_notifications']:Caption(caption,message,position,timeout,color,textColor,progress)
 ```
 **Infomative notification**
 ```lua
 TriggerEvent("swt_notifications:Info",caption,message,position,timeout,progress)
+
+exports['swt_notifications']:Info(caption,message,position,timeout,progress)
 ```
 
 **Success**
 
 ```lua
 TriggerEvent("swt_notifications:Success",caption,message,position,timeout,progress)
+
+exports['swt_notifications']:Success(caption,message,position,timeout,progress)
 ```
 
 **Warning**
 ```lua
 TriggerEvent("swt_notifications:Warning",caption,message,position,timeout,progress)
+
+exports['swt_notifications']:Warning(caption,message,position,timeout,progress)
 ```
 **Negative**
 ```lua
 TriggerEvent("swt_notifications:Negative",caption,message,position,timeout,progress)
+
+exports['swt_notifications']:Negative(caption,message,position,timeout,progress)
 ```
 
 **With Icon**
 ```lua
 TriggerEvent("swt_notifications:Icon",message,position,timeout,color,textColor,progress,icon)
+
+exports['swt_notifications']:Icon(message,position,timeout,color,textColor,progress,icon)
 ```
 
 **With Icon and Caption**
 ```lua
 TriggerEvent("swt_notifications:captionIcon",caption,message,position,timeout,color,textColor,progress,icon)
+
+exports['swt_notifications']:CaptionIcon(caption,message,position,timeout,color,textColor,progress,icon)
 ```
 
 ### Example to use
 
 ```lua
-TriggerEvent("swt_notifications:Icon","Hey, this is an example","top","blue-10","white",2500,true,"mdi-earth")
+TriggerEvent("swt_notifications:Icon","Hey, this is an example","top",2500,"blue-10","white",true,"mdi-earth")
+
+exports['swt_notifications']:Icon("Hey, this is an example","top",2500,"blue-10","white",true,"mdi-earth")
 ```
 
 # Credits

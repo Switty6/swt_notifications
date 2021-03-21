@@ -17,5 +17,14 @@ files{
 
 client_script "client.lua"
 
-
+exports {
+    'Default',
+    'Caption',
+    'Warning',
+    'Success',
+    'Info',
+    'Negative',
+    'CaptionIcon',
+    'Icon'
+}
 

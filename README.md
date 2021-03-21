@@ -151,7 +151,7 @@ ___
 TriggerEvent("swt_notifications:Icon","Hey, this is an example","top",2500,"blue-10","white",true,"mdi-earth")
 --or
 exports['swt_notifications']:Icon("Hey, this is an example","top",2500,"blue-10","white",true,"mdi-earth")
---or
+--Server
 TriggerClientEvent("swt_notifications:Icon",source,"Hey, this is an example","top",2500,"blue-10","white",true,"mdi-earth")
 ```
 ___

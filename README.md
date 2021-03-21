@@ -5,12 +5,6 @@ Notification system using quasar and material design icons, made by Switty.
 
 ![Screenshots are here](https://imgur.com/mNUe3h1.jpg) 
 
-![Screenshot3](https://imgur.com/P0YEP0D.png)
-
-![Screenshot 2](https://imgur.com/VzCCmD5.png) 
-
-
-
 ## Installation
 Drag and drop the `swt_notifications` file into the resources folder.
 ___

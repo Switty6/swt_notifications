@@ -156,8 +156,6 @@ TriggerClientEvent("swt_notifications:Icon",source,"Hey, this is an example","to
 ```
 ___
 ## Credits
-Big thanks to Big D  [Shinigami](https://github.com/ioShinigami) 
-
 Thanks [Hugo](https://github.com/HugoDs21) for updated docs and exports!
 
 ## Contributing

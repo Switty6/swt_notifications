@@ -68,7 +68,7 @@ exports['swt_notifications']:Caption(caption,message,position,timeout,color,text
 TriggerClientEvent("swt_notifications:caption",source,caption,message,position,timeout,color,textColor,progress)
 ```
 
-**Infomative notification** 
+**Informative notification** 
 --
 ![Info](https://i.imgur.com/VFAiZY8.png)
 ```lua
